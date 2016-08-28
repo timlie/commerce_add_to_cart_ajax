@@ -1,0 +1,8 @@
+name = Commerce add to cart ajax
+description = Provides a method for updating cart quantities from product views.
+package = Commerce (contrib)
+core = 7.x
+dependencies[] = views
+dependencies[] = commerce_product
+
+files[] = commerce_add_to_cart_ajax_handler_field_quantity.inc
